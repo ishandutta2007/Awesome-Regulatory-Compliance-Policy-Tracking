@@ -4,10 +4,12 @@
 
 # 🛡️ Awesome Regulatory Compliance & Policy Tracking 📜
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Regulatory-Compliance-Policy-Tracking/pulls)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Regulatory-Compliance-Policy-Tracking/commits/main)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 > 🌟 **A curated list of top Regulatory Compliance and Policy Tracking platforms** — encompassing enterprise SaaS/commercial Governance, Risk, and Compliance (GRC) suites, policy-as-code engines, and self-hosted open-source software for monitoring legal regulations, governing corporate policies, and automating audit-ready compliance evidence. 
 > 
@@ -23,6 +25,8 @@
 - [💻 Open-Source Software & Policy Engines](#-open-source-software--policy-engines)
   - [Open-Source Solutions Deep-Dive](#-open-source-solutions-deep-dive)
 - [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
@@ -136,6 +140,23 @@ The following community-driven, open-source GRC solutions and policy-as-code eng
 | **Eramba** | Multi-Framework GRC| Self-Hosted / Docker | ✅ Mature | ✅ Multiple Standards | ✅ Evidence Repository | ✅ Community |
 | **OSPAC** | License Policy Engine| CLI / Python Library | ✅ YAML / JSON | 712+ SPDX Licenses | ✅ Checklist Generation | ✅ PyPI FOSS |
 | **federal-register-mcp** | Regulatory AI Agent | MCP Server / Docker | ❌ Read-Only Feeds | US Federal Register | ✅ LLM Context Injection | ✅ Open Source |
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Regulatory-Compliance-Policy-Tracking&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Regulatory-Compliance-Policy-Tracking&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring this curated guide to Regulatory Compliance & Policy Tracking! If you found this repository helpful, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it on GitHub.
+- 🍴 **Fork and contribute** by submitting new tools or updates via Pull Requests.
+- 📢 **Share** with your network, engineering teammates, or GRC professionals.
+- ☕ **Buy me a coffee**: If this project saved you time or added value to your compliance stack evaluation, you can sponsor further development and maintenance on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
