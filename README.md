@@ -1,155 +1,167 @@
-# Awesome-Regulatory-Compliance-Policy-Tracking
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Regulatory Compliance & Policy Tracking Banner" width="100%">
+</p>
 
-# Awesome Regulatory Compliance & Policy Tracking
+# 🛡️ Awesome Regulatory Compliance & Policy Tracking 📜
 
-> A curated list of top Regulatory Compliance and Policy Tracking platforms — both SaaS/Hosted commercial GRC solutions and open-source alternatives for tracking regulations, managing policies, and evidencing compliance.
-> 🌟 Star this repo if you find it useful! 🌟
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Regulatory-Compliance-Policy-Tracking/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Regulatory-Compliance-Policy-Tracking/commits/main)
 
----
-
-## 📋 Table of Contents
-
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [ServiceNow GRC](#servicenow-grc)
-  - [OneTrust](#onetrust)
-  - [AuditBoard](#auditboard)
-  - [LogicGate](#logicgate)
-  - [MetricStream](#metricstream)
-  - [Archer](#archer)
-  - [Diligent HighBond](#diligent-highbond)
-  - [Resolver](#resolver)
-- [Open-Source Software](#-open-source-software)
-  - [Probo](#probo)
-  - [CISO Assistant](#ciso-assistant)
-  - [Eramba](#eramba)
-  - [SimpleRisk](#simplerisk)
-  - [Comp AI](#comp-ai)
-  - [OpenGRC](#opengrc)
-  - [OSPAC](#ospac)
-  - [federal-register-mcp](#federal-register-mcp)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+> 🌟 **A curated list of top Regulatory Compliance and Policy Tracking platforms** — encompassing enterprise SaaS/commercial Governance, Risk, and Compliance (GRC) suites, policy-as-code engines, and self-hosted open-source software for monitoring legal regulations, governing corporate policies, and automating audit-ready compliance evidence. 
+> 
+> ⭐ **Star this repository if you find it helpful!** ⭐
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 📑 Table of Contents
 
-Commercial, cloud-hosted Regulatory Compliance and Policy Tracking platforms. These are not open-source but are included as reference points for feature comparison.
-
-### ServiceNow GRC
-**Type:** Enterprise GRC within ServiceNow platform  
-ServiceNow GRC integrates risk management, policy management, compliance tracking, and audit management directly into the ServiceNow platform. It is the natural choice for organizations already using ServiceNow for ITSM or ITAM, as GRC workflows operate on the same data model without external integration overhead. Pricing is quote-based and typically targets large enterprises.
-
-### OneTrust
-**Type:** Privacy and compliance management platform  
-OneTrust is the dominant commercial privacy management platform, covering consent management, data mapping, privacy impact assessments, vendor risk, and policy management. It is frequently referenced as the commercial standard for privacy-focused compliance, with broad certification and regulatory framework support.
-
-### AuditBoard
-**Type:** Connected risk and compliance platform  
-AuditBoard provides audit management, risk management, compliance management, and ESG reporting in a connected platform. It is positioned for internal audit and compliance teams wanting a modern alternative to legacy GRC suites, with strong visualization and workflow capabilities.
-
-### LogicGate
-**Type:** Risk and compliance process automation  
-LogicGate provides a flexible platform for building risk and compliance processes, with a visual workflow builder and a library of pre-built applications for policy management, regulatory tracking, and control testing. Suited for organizations wanting customizable GRC workflows without heavy coding.
-
-### MetricStream
-**Type:** Enterprise GRC and quality management  
-MetricStream provides enterprise GRC covering risk, compliance, audit, policy, and quality management. It is a long-standing commercial option for large organizations needing comprehensive governance across multiple domains.
-
-### Archer
-**Type:** Enterprise GRC (RSA)  
-Archer (RSA) is a mature enterprise GRC platform covering risk management, compliance, policy management, and audit. It is often deployed in large, regulated organizations with complex governance requirements.
-
-### Diligent HighBond
-**Type:** GRC and audit analytics  
-Diligent HighBond (formerly Galvanize) combines GRC with audit analytics, allowing organizations to track compliance, manage policies, and analyze data for anomalies. Suited for internal audit and compliance teams wanting data-driven governance.
-
-### Resolver
-**Type:** Risk and compliance management  
-Resolver provides risk management, compliance tracking, and incident management with a focus on actionable intelligence. Positioned for organizations wanting a unified view of risk and compliance posture.
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+  - [Feature Deep-Dive](#-commercial-grc-deep-dive)
+- [💻 Open-Source Software & Policy Engines](#-open-source-software--policy-engines)
+  - [Open-Source Solutions Deep-Dive](#-open-source-solutions-deep-dive)
+- [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
-## 🟩 Open-Source Software
+## 🌐 Sector Overview & Market Dynamics
 
-Self-hosted, community-driven Regulatory Compliance and Policy Tracking tools. The open-source ecosystem spans **full GRC platforms with policy management**, **compliance automation platforms**, **risk registers**, and **specialized policy engines**.
+The global Governance, Risk, and Compliance (GRC) software market was valued at approximately **$45.3 billion to $52.0 billion** and is projected to expand beyond **$105.0 billion by 2030**, advancing at a robust compound annual growth rate (**CAGR of ~11.8% to 13.2%**). 
 
-### Probo
-**Stack:** Go / PostgreSQL / GraphQL / Docker | **License:** ISC  
-Probo is a comprehensive open-source GRC platform covering the full lifecycle: risk identification, control tracking, vendor risk, data privacy, access reviews, audit programs, and document approval workflows [citation:4]. For policy tracking specifically, it provides **versioned documents with approval quorums, electronic signatures, and PDF export**, alongside a **public compliance portal** with NDA management and certification publishing [citation:4]. Every entity is accessible via web console, `prb` CLI (44+ command groups), **270+ MCP tools** for AI agents, and GraphQL API, with policy-based RBAC and immutable audit logs [citation:4].  
-**Best for:** Organizations wanting a self-hosted GRC platform with strong document/policy approval workflows and AI agent accessibility via MCP, under a permissive ISC license.
+From a market structure standpoint, the sector is **moderately to highly fragmented** rather than a winner-take-all monopoly: while legacy mega-cap titans (such as ServiceNow, IBM, and SAP) dominate core enterprise IT workflows, hundreds of specialized point solutions thrive across compliance automation (e.g., SOC 2 / ISO 27001 continuous auditing), data privacy governance, third-party vendor risk management (TPRM), and policy-as-code engines—spurring aggressive private-equity rollups and consolidation across the industry.
 
-### CISO Assistant
-**Stack:** Python / Django / Docker | **License:** Open Source  
-CISO Assistant is a one-stop GRC platform covering risk management, AppSec, compliance and audit, TPRM, BIA, privacy, and reporting [citation:3]. It supports **150+ global frameworks** including ISO 27001, NIST CSF, SOC 2, CIS, PCI DSS, NIS2, DORA, GDPR, HIPAA, and CMMC, with **automatic control mapping** [citation:3]. It is actively developed (last updated August 2026) and recommended as a strong base platform for organizations building GRC capabilities due to its microservices architecture and API-first design [citation:6].  
-**Best for:** Organizations wanting broad framework coverage with automatic control mapping and a modern, extensible architecture.
+---
 
-### Eramba
-**Stack:** PHP / MySQL | **License:** Open Source (Community)  
-Eramba is a well-established open-source GRC tool with comprehensive features for compliance, risk, and evidence management [citation:6]. It is best suited for organizations tackling multiple frameworks simultaneously, with 10 releases in the past year and 3,689+ downloads [citation:6]. It provides policy management, control tracking, and audit workflows.  
-**Best for:** Organizations managing multiple compliance frameworks needing a proven, feature-rich GRC platform.
+## 🏢 SaaS & Hosted Commercial Platforms
 
-### SimpleRisk
-**Stack:** PHP / MySQL | **License:** Open Source (Community)  
-SimpleRisk is designed to get organizations "from zero to GRC in minutes" with quick deployment and an intuitive interface [citation:14]. It covers governance (policy management, regulatory framework integration with **250+ frameworks mapped to 1,250+ controls**), risk management, compliance (control testing, audit management, evidence collection), and incident management [citation:14]. It is trusted by hundreds of companies, particularly in healthcare, government, and technology [citation:14].  
-**Best for:** Organizations wanting rapid GRC deployment with pre-mapped regulatory frameworks and an accessible interface.
+Below is an overview of commercial, cloud-hosted Regulatory Compliance and Policy Tracking solutions, sorted in descending order by **company scale (valuation / market capitalization / revenue)**.
 
-### Comp AI
-**Stack:** TypeScript / Node.js / Postgres | **License:** AGPLv3 (Community Edition)  
-Comp AI is an open-source compliance platform targeting SOC 2, ISO 27001, HIPAA, and GDPR, positioned as a direct alternative to Vanta and Drata [citation:9]. Its **AI Policy Editor** allows users to draft and update security policies through natural language, with a diff viewer showing changes before acceptance [citation:9]. **Automated Evidence** lets users create recurring evidence collection automations via plain-language prompts. A **Device Agent** checks endpoints for disk encryption, antivirus, password policy, and screen lock compliance [citation:9]. The Community Edition is AGPLv3 and self-hostable, with a separate managed Cloud offering [citation:13].  
-**Best for:** Startups and SMBs wanting automated compliance with AI-assisted policy editing and evidence collection, accepting the AGPLv3 license.
+| Platform 🚀 | Company Scale & Valuation 📈 | Primary Focus & Target Audience 🎯 | Starting Price (Specific Tier) 💵 | Free Tier Limits / Trial Terms ⏳ |
+|---|---|---|---|---|
+| **[ServiceNow GRC](https://www.servicenow.com/products/governance-risk-and-compliance.html)** | **~$160B - $218B Market Cap** (~$13.2B Annual Revenue) | Enterprise Integrated Risk Management (IRM) built into ServiceNow ITSM ecosystem | **$125 / user / month** ($1,500/year list price for IRM Standard Operator; enterprise deployments start at ~$60,000/yr) | **No public free tier**; 30-day developer/trial instances available via partner channels and Now Learning training simulators |
+| **[OneTrust](https://www.onetrust.com/)** | **~$4.5B - $5.0B Valuation** (~$500M+ ARR) | Privacy management, consent tracking, AI governance & compliance | **$800 / month** ($9,600/year for Consent & Preferences module; minimum annual contracts start at $10,000/yr) | **0 days free trial**; no free-forever tier, evaluation is restricted to guided custom live demos |
+| **[Diligent HighBond](https://www.diligent.com/)** | **~$4.0B Valuation** (~$550M+ Annual Revenue) | Connected GRC, board governance, internal audit analytics & ESG | **$416 / month** ($5,000/year baseline starting license for entry audit/point solutions) | **No standard free tier**; 14-day evaluation trial limited to selected modular add-ons (GovernAI / Board portals) |
+| **[AuditBoard](https://www.auditboard.com/)** | **~$3.0B+ Valuation** (~$300M+ ARR; acquired by Hg) | Connected risk, SOX compliance, ESG & internal audit automation | **$2,083 / month** ($25,000/year entry point for single-module mid-market teams; typical suites start at $45,000/yr) | **0 days free trial**; no public self-service sandbox, proof-of-concept provided exclusively via sales demos |
+| **[Archer](https://www.archerirm.com/)** | **~$2.0B+ Enterprise Value** (~$230M - $255M Revenue) | Multi-domain enterprise Integrated Risk Management (IRM) | **$4,583 / month** ($55,000/year entry-level annual subscription contract for targeted use-case modules) | **0 days free trial**; no self-serve free sandbox, evaluation governed through structured sales PoC programs |
+| **[MetricStream](https://www.metricstream.com/)** | **~$478M+ Valuation** (~$180M - $240M Revenue) | Enterprise risk, policy management, IT cyber GRC & regulatory reporting | **$6,250 / month** ($75,000/year baseline starting annual contract for entry enterprise instances) | **0 days free tier**; interactive self-guided video walkthroughs provided, live testing restricted to sales PoC sandbox |
+| **[LogicGate](https://www.logicgate.com/)** | **~$160M+ Raised / ~$50M Valuation** (~$49M ARR) | No-code Risk Cloud workflow automation & dynamic regulatory mapping | **$1,083 / month** ($13,000/year entry contract tier for restricted application suites; mid-market bundles start at ~$25,000/yr) | **0 days free trial**; no free self-serve plan, customized sandbox environments provisioned following discovery calls |
+| **[Resolver](https://www.resolver.com/)** | **~$15M - $50M Est. Revenue** (Division of Kroll) | Corporate security, compliance tracking, risk management & incident triage | **$833 / month** ($10,000/year entry starting contract for single business-unit risk modules) | **0 days free tier**; custom sandbox proof-of-concept delivered upon scoping with solution architects |
 
-### OpenGRC
-**Stack:** Web application | **License:** MIT  
-OpenGRC is a cyber GRC web application intended for small businesses and teams, explicitly "not intended to replace large-scale GRC Platforms, but it just might for your use case" [citation:6]. Features include a simple interface designed for minimal training, quick imports of common security frameworks, ability to connect Standards/Controls/Implementations, internal and external audit capabilities, report generation for auditors, and intuitive dashboards [citation:6].  
-**Best for:** Small businesses and teams wanting a lightweight, MIT-licensed GRC tool with framework imports and audit reporting, without enterprise complexity.
+### 🔍 Commercial GRC Deep-Dive
 
-### OSPAC
-**Stack:** Python / YAML policies | **License:** Open Source (PyPI)  
-OSPAC (Open Source Policy as Code) is a **policy engine for automated OSS license compliance**, with all compliance logic, rules, and decisions defined in versionable YAML/JSON policy files rather than hardcoded [citation:1]. It provides SPDX license integration (700+ licenses), a compatibility engine, **obligation tracking with automated checklist generation**, and both CLI and Python API [citation:1]. Policies are stored in Git, reviewable via PR, testable, and auditable with clear decision lineage [citation:1].  
-**Best for:** Engineering and legal teams needing automated open-source license compliance with policy-as-code, version-controlled rules, and auditable decisions.
+* **ServiceNow GRC**: Integrates risk, compliance, policy lifecycles, and audit management directly into corporate ServiceNow instances. Ideal for organizations that have already standardized on ServiceNow for IT Service Management (ITSM) and asset tracking.
+* **OneTrust**: The market leader in privacy and trust intelligence. Encompasses automated consent management, sensitive data mapping, Privacy Impact Assessments (PIAs), vendor risk ratings, and global policy compliance.
+* **Diligent HighBond**: Unifies GRC controls with deep forensic data analytics. Gives internal audit and risk leaders real-time visibility into control failures, compliance anomalies, and executive board reporting.
+* **AuditBoard**: A modern, collaborative risk and compliance platform centered on SOXHUB, OpsAudit, and CrossComply. Frequently chosen by internal audit teams seeking an agile, intuitive alternative to legacy suites.
+* **Archer**: A venerable enterprise standard in Integrated Risk Management (IRM). Provides granular governance modeling, risk scoring algorithms, and regulatory requirement mapping for heavily regulated enterprises.
+* **MetricStream**: Designed for global multinational corporations and federal bodies requiring comprehensive governance across enterprise risk, quality controls, operational resiliency, and cyber compliance.
+* **LogicGate Risk Cloud**: Features a drag-and-drop visual process workflow builder and application marketplace for policy lifecycles, third-party assessments, and controls testing without developer intervention.
+* **Resolver**: Combines corporate risk management, regulatory compliance monitoring, and incident investigations into unified actionable intelligence feeds.
 
-### federal-register-mcp
-**Stack:** Python / MCP Server | **License:** Open Source (PyPI)  
-federal-register-mcp is a free, open-source **MCP server for the Federal Register API**, providing access to proposed rules, final rules, notices, executive orders, comment periods, and **regulatory tracking since 1994** [citation:7]. No API key is required, and it has been tested through nine audit rounds with 295 regression tests [citation:7]. It enables AI agents (Claude, ChatGPT) to query and track regulatory changes directly.  
-**Best for:** Compliance and legal teams wanting AI-assisted tracking of US federal regulations, particularly for monitoring proposed and final rules affecting their industry.
+---
+
+## 💻 Open-Source Software & Policy Engines
+
+The following community-driven, open-source GRC solutions and policy-as-code engines are sorted in descending order by **GitHub Star Count**. Every badge links directly to the project's real-time GitHub stargazers.
+
+| Project & Repository 📦 | GitHub Stars 🌟 | Tech Stack 🛠️ | License 📜 | Best For & Core Value Proposition 🎯 |
+|---|---|---|---|---|
+| **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** | [![OPA Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | Go / Rego | Apache-2.0 | General-purpose policy engine across microservices, Kubernetes, CI/CD pipelines & cloud APIs |
+| **[Kyverno](https://github.com/kyverno/kyverno)** | [![Kyverno Stars](https://img.shields.io/github/stars/kyverno/kyverno?style=social&color=white)](https://github.com/kyverno/kyverno/stargazers) | Go / Kubernetes CRD | Apache-2.0 | Kubernetes-native policy-as-code management, validation, mutation & container image verification |
+| **[CISO Assistant](https://github.com/intuitem/ciso-assistant-community)** | [![CISO Assistant Stars](https://img.shields.io/github/stars/intuitem/ciso-assistant-community?style=social&color=white)](https://github.com/intuitem/ciso-assistant-community/stargazers) | Python / Django / React | Open Source | Full-spectrum GRC platform supporting 150+ frameworks (ISO 27001, NIST, SOC 2, DORA, NIS2) with auto-mapping |
+| **[Gatekeeper](https://github.com/open-policy-agent/gatekeeper)** | [![Gatekeeper Stars](https://img.shields.io/github/stars/open-policy-agent/gatekeeper?style=social&color=white)](https://github.com/open-policy-agent/gatekeeper/stargazers) | Go / Rego / K8s | Apache-2.0 | Validating and mutating webhook admission controller enforcing OPA policies for cluster compliance |
+| **[ComplianceAsCode](https://github.com/ComplianceAsCode/content)** | [![ComplianceAsCode Stars](https://img.shields.io/github/stars/ComplianceAsCode/content?style=social&color=white)](https://github.com/ComplianceAsCode/content/stargazers) | Python / SCAP / Ansible | ComplianceAsCode | Automated security baseline policies, compliance checks & SCAP/Ansible remediation content for CIS/NIST |
+| **[OSS Review Toolkit (ORT)](https://github.com/oss-review-toolkit/ort)** | [![ORT Stars](https://img.shields.io/github/stars/oss-review-toolkit/ort?style=social&color=white)](https://github.com/oss-review-toolkit/ort/stargazers) | Kotlin / Java / Docker | Apache-2.0 | Automated open-source license compliance pipelines, dependency scanning, SBOM generation & curation rules |
+| **[Comp AI](https://github.com/trycompai/comp)** | [![Comp AI Stars](https://img.shields.io/github/stars/trycompai/comp?style=social&color=white)](https://github.com/trycompai/comp/stargazers) | TypeScript / Node / Postgres | AGPL-3.0 | AI-native compliance platform with natural language policy editing & automated continuous evidence extraction |
+| **[Probo](https://github.com/getprobo/probo)** | [![Probo Stars](https://img.shields.io/github/stars/getprobo/probo?style=social&color=white)](https://github.com/getprobo/probo/stargazers) | Go / Postgres / GraphQL | ISC | Modern engineering-first GRC with versioned policy approvals, public trust portals & 270+ MCP AI tools |
+| **[Allstar](https://github.com/ossf/allstar)** | [![Allstar Stars](https://img.shields.io/github/stars/ossf/allstar?style=social&color=white)](https://github.com/ossf/allstar/stargazers) | Go / GitHub App | Apache-2.0 | OpenSSF continuous security policy enforcement bot checking organization repos for compliance drift |
+| **[PacBot](https://github.com/tmobile/pacbot)** | [![PacBot Stars](https://img.shields.io/github/stars/tmobile/pacbot?style=social&color=white)](https://github.com/tmobile/pacbot/stargazers) | Java / Angular / AWS | Apache-2.0 | Enterprise-scale policy evaluation, continuous cloud compliance monitoring & automated remediation |
+| **[FOSSology](https://github.com/fossology/fossology)** | [![FOSSology Stars](https://img.shields.io/github/stars/fossology/fossology?style=social&color=white)](https://github.com/fossology/fossology/stargazers) | C / PHP / C++ | GPL-2.0-only | Linux Foundation open-source license compliance suite, copyright detection & SPDX document generation |
+| **[OpenGRC](https://github.com/LeeMangold/OpenGRC)** | [![OpenGRC Stars](https://img.shields.io/github/stars/LeeMangold/OpenGRC?style=social&color=white)](https://github.com/LeeMangold/OpenGRC/stargazers) | Python / Flask / Web | MIT | Lightweight, zero-fuss GRC web app designed for SMB security controls, framework imports & audits |
+| **[SimpleRisk](https://github.com/simplerisk/code)** | [![SimpleRisk Stars](https://img.shields.io/github/stars/simplerisk/code?style=social&color=white)](https://github.com/simplerisk/code/stargazers) | PHP / MySQL | Community | Rapid-deployment GRC platform mapping 250+ regulatory frameworks directly to 1,250+ security controls |
+| **[Eramba](https://github.com/eramba/docker)** | [![Eramba Stars](https://img.shields.io/github/stars/eramba/docker?style=social&color=white)](https://github.com/eramba/docker/stargazers) | PHP / Docker / MySQL | Community | Comprehensive multi-framework GRC tool managing enterprise risk registers, internal controls & policy audits |
+| **[OSPAC](https://github.com/SemClone/ospac)** | [![OSPAC Stars](https://img.shields.io/github/stars/SemClone/ospac?style=social&color=white)](https://github.com/SemClone/ospac/stargazers) | Python / YAML / JSON | PyPI FOSS | Open Source Policy as Code engine for automated license compatibility & obligation tracking across 712+ SPDX tags |
+| **[federal-register-mcp](https://github.com/VeronaStrategic/federal-register-mcp)** | [![federal-register-mcp Stars](https://img.shields.io/github/stars/VeronaStrategic/federal-register-mcp?style=social&color=white)](https://github.com/VeronaStrategic/federal-register-mcp/stargazers) | Python / MCP Server | Open Source | Read-only Model Context Protocol (MCP) server delivering live US Federal Register regulatory tracking to AI agents |
+
+### 🛠️ Open-Source Solutions Deep-Dive
+
+* **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)**: General-purpose policy engine that unifies policy enforcement across cloud-native stacks using the declarative query language **Rego**. Decouples compliance rules from runtime application services.
+* **[Kyverno](https://github.com/kyverno/kyverno)**: Kubernetes-native policy management tool designed specifically for cluster administrators. Validates, mutates, and generates Kubernetes resources using familiar YAML declarative patterns.
+* **[CISO Assistant](https://github.com/intuitem/ciso-assistant-community)**: Comprehensive community GRC tool covering risk registers, vendor assessments, and audit workflows across 150+ international compliance frameworks (ISO 27001, SOC 2, HIPAA, NIST CSF).
+* **[Gatekeeper](https://github.com/open-policy-agent/gatekeeper)**: Integrates OPA directly into Kubernetes admission pipelines, blocking non-compliant cluster manifests before deployment.
+* **[ComplianceAsCode](https://github.com/ComplianceAsCode/content)**: High-security compliance content project providing machine-readable configuration baselines and automated remediation scripts for Red Hat, Debian, Ubuntu, and container hosts.
+* **[OSS Review Toolkit (ORT)](https://github.com/oss-review-toolkit/ort)**: Industry-grade open-source license governance toolsuite that parses build dependencies, creates Software Bills of Materials (SBOMs), and flags licensing policy violations.
+* **[Comp AI](https://github.com/trycompai/comp)**: Built as a transparent open-source alternative to proprietary compliance automation systems (like Vanta and Drata). Features an AI policy editor with side-by-side diffing and endpoint compliance checking.
+* **[Probo](https://github.com/getprobo/probo)**: Developer-centric GRC platform with document version control, quorum signature workflows, public trust center hosting, and 270+ native Model Context Protocol (MCP) tools for LLM agent integration.
+* **[Allstar](https://github.com/ossf/allstar)**: OpenSSF automated security bot that monitors GitHub repositories against organizational policies (branch protection, outside collaborators, security advisories).
+* **[PacBot](https://github.com/tmobile/pacbot)**: T-Mobile's continuous cloud compliance platform. Evaluates resources against defined policies, generates compliance metrics, and automatically fixes policy violations in AWS and multi-cloud accounts.
+* **[FOSSology](https://github.com/fossology/fossology)**: Linux Foundation-backed compliance toolkit capable of scanning deep code repositories to identify licenses, copyrights, and export restrictions.
+* **[OpenGRC](https://github.com/LeeMangold/OpenGRC)**: Simple, MIT-licensed cyber GRC tool for small teams seeking an uncluttered compliance management dashboard without enterprise overhead.
+* **[SimpleRisk](https://github.com/simplerisk/code)**: Intuitive GRC suite that enables organizations to go from zero to fully configured risk management in minutes, complete with 250+ pre-mapped control catalogs.
+* **[Eramba](https://github.com/eramba/docker)**: Mature open-source GRC solution for organizations managing multiple concurrent frameworks, internal control audits, and risk assessment workflows.
+* **[OSPAC](https://github.com/SemClone/ospac)**: Policy-as-code CLI and Python library that models license compatibility matrices, obligation tracking, and distribution constraints in versioned Git files.
+* **[federal-register-mcp](https://github.com/VeronaStrategic/federal-register-mcp)**: AI-first Model Context Protocol (MCP) server enabling LLMs (such as Claude, ChatGPT, and Gemini) to monitor US Federal Register rulemaking, final rules, and executive orders.
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Policy Management | Regulatory Frameworks | Self-Hosted | Best For |
-|----------|---------|-------|-------------------|----------------------|-------------|----------|
-| **ServiceNow GRC** | Proprietary | Cloud | ✅ | ✅ | ❌ | ServiceNow enterprises |
-| **OneTrust** | Proprietary | Cloud | ✅ | ✅ Privacy-focused | ❌ | Privacy compliance |
-| **Probo** | ISC | Go/Postgres | ✅ Versioned + approvals | ✅ Custom import | ✅ | GRC + policy + MCP |
-| **CISO Assistant** | Open Source | Python/Django | ✅ | ✅ 150+ frameworks | ✅ | Broad framework coverage |
-| **Eramba** | Open Source | PHP/MySQL | ✅ | ✅ Multiple | ✅ | Multi-framework GRC |
-| **SimpleRisk** | Open Source | PHP/MySQL | ✅ | ✅ 250+ mapped | ✅ | Rapid GRC deployment |
-| **Comp AI** | AGPLv3 | TypeScript/Postgres | ✅ AI editor | ✅ SOC 2/ISO/HIPAA/GDPR | ✅ | AI-assisted compliance |
-| **OpenGRC** | MIT | Web app | (Light) | ✅ Framework imports | ✅ | Lightweight SMB GRC |
-| **OSPAC** | Open Source | Python/YAML | ✅ Policy-as-code | OSS licenses | ✅ | License compliance |
-| **federal-register-mcp** | Open Source | Python/MCP | ❌ | US Federal Register | ✅ | AI regulatory tracking |
+| Solution 🔍 | Category 🏷️ | Deployment Model 🚀 | Policy Management 📑 | Regulatory Frameworks 📋 | Automated Evidence 🤖 | Open Source 💻 |
+|---|---|---|---|---|---|---|
+| **ServiceNow GRC** | Enterprise IRM | Cloud SaaS | ✅ Advanced | ✅ Global Multi-Framework | ✅ Native ITSM | ❌ Proprietary |
+| **OneTrust** | Trust & Privacy | Cloud SaaS | ✅ Privacy & Consent | ✅ Global Privacy & AI | ✅ Workflow Integrations | ❌ Proprietary |
+| **Diligent HighBond** | GRC & Analytics | Cloud SaaS | ✅ Built-in | ✅ Pre-built Catalogs | ✅ Forensic Data Connectors | ❌ Proprietary |
+| **AuditBoard** | Connected Risk | Cloud SaaS | ✅ Standard | ✅ SOX / ISO / SOC 2 | ✅ Workflow Automation | ❌ Proprietary |
+| **Archer** | Enterprise IRM | Cloud / On-Prem | ✅ Mature | ✅ Comprehensive IRM | ✅ API & Integrations | ❌ Proprietary |
+| **MetricStream** | Enterprise GRC | Cloud SaaS | ✅ Advanced | ✅ Enterprise Global | ✅ AI Compliance Feeds | ❌ Proprietary |
+| **LogicGate** | Agile GRC | Cloud SaaS | ✅ Visual Builder | ✅ Pre-configured Apps | ✅ No-Code Integrations | ❌ Proprietary |
+| **Resolver** | Risk & Security | Cloud SaaS | ✅ Centralized | ✅ Security & Regulatory | ✅ Incident Feeds | ❌ Proprietary |
+| **Open Policy Agent (OPA)** | Policy-as-Code | Self-Hosted / Binary | ✅ Declarative Rego | Custom Rulesets | ✅ Real-time Policy Engine | ✅ Apache-2.0 |
+| **Kyverno** | Policy-as-Code | Kubernetes Native | ✅ Kubernetes CRD | Kubernetes Standards | ✅ Admission & Audit Logs | ✅ Apache-2.0 |
+| **CISO Assistant** | Open-Source GRC | Self-Hosted / Docker | ✅ Integrated | ✅ 150+ Frameworks | ✅ API Integrations | ✅ Open Source |
+| **Gatekeeper** | Policy-as-Code | Kubernetes Native | ✅ OPA Constraints | Cluster Governance | ✅ Audit Controller | ✅ Apache-2.0 |
+| **ComplianceAsCode** | Security Baselines | Self-Hosted / Scriped | ✅ Baselines / SCAP | ✅ CIS / NIST Baselines | ✅ Automated Remediation | ✅ Open Source |
+| **OSS Review Toolkit (ORT)**| License & SBOM | CI/CD / Docker | ✅ License Rules | SPDX / OSS Licenses | ✅ Automated Scanners | ✅ Apache-2.0 |
+| **Comp AI** | Compliance Automation| Self-Hosted / Cloud | ✅ AI-Powered | ✅ SOC 2 / ISO / HIPAA | ✅ Continuous Endpoint Agent| ✅ AGPL-3.0 |
+| **Probo** | Open-Source GRC | Self-Hosted / Docker | ✅ Versioned Approvals | ✅ Custom & Standard | ✅ 270+ MCP AI Tools | ✅ ISC |
+| **Allstar** | Security Policy Bot | GitHub App | ✅ GitHub Policies | OpenSSF Guidelines | ✅ Continuous Drift Checks | ✅ Apache-2.0 |
+| **PacBot** | Cloud Compliance | Multi-Cloud / Docker | ✅ Policy-as-Code | CIS / Cloud Benchmarks | ✅ Automated Fixers | ✅ Apache-2.0 |
+| **FOSSology** | License Governance | Self-Hosted / Docker | ✅ License Auditing | SPDX / Copyrights | ✅ Deep Code Scanning | ✅ GPL-2.0-only |
+| **OpenGRC** | Lightweight GRC | Self-Hosted / Web | ✅ Light | ✅ Importable Catalogs | ✅ Audit Reporting | ✅ MIT |
+| **SimpleRisk** | Rapid GRC | Self-Hosted / Docker | ✅ Native Catalog | ✅ 250+ Mapped Frameworks | ✅ Control Testing Logs | ✅ Community |
+| **Eramba** | Multi-Framework GRC| Self-Hosted / Docker | ✅ Mature | ✅ Multiple Standards | ✅ Evidence Repository | ✅ Community |
+| **OSPAC** | License Policy Engine| CLI / Python Library | ✅ YAML / JSON | 712+ SPDX Licenses | ✅ Checklist Generation | ✅ PyPI FOSS |
+| **federal-register-mcp** | Regulatory AI Agent | MCP Server / Docker | ❌ Read-Only Feeds | US Federal Register | ✅ LLM Context Injection | ✅ Open Source |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Regulatory Compliance or Policy Tracking tool that should be listed here, please open a pull request with:
+Contributions from the compliance, legal, security, and developer communities are welcome! If you know of an outstanding open-source tool, policy engine, or platform that should be included:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+1. 🍴 **Fork** this repository.
+2. 🌿 **Create a branch** for your addition (`git checkout -b feature/add-new-tool`).
+3. 📝 **Add the project** under the relevant section with:
+   - Official project repository or website URL
+   - Stargazer social badge (for open-source tools)
+   - Tech stack and license
+   - Concise summary of value proposition
+4. 🚀 **Submit a Pull Request** explaining why the tool stands out.
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem **splits** between **full GRC platforms with policy management** (Probo, CISO Assistant, Eramba, SimpleRisk), **AI-assisted compliance automation** (Comp AI), **lightweight SMB tools** (OpenGRC), and **specialized tracking tools** (OSPAC for license compliance, federal-register-mcp for US regulatory tracking). **Probo** offers the most comprehensive open-source GRC coverage with versioned policy approvals and 270+ MCP tools for AI agent access [citation:4]. **CISO Assistant** provides the broadest framework support (150+) with automatic control mapping [citation:3]. **Comp AI** is the strongest open-source Vanta/Drata alternative with AI-assisted policy editing [citation:9].
+Please ensure that submitted open-source projects are actively maintained (updated within the last 12 months) and adhere to transparent open-source licensing.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository and curated list are published under the [CC0 1.0 Universal (Public Domain Dedication)](https://creativecommons.org/publicdomain/zero/1.0/). All listed third-party trademarks, logos, and project names are the property of their respective owners.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<p align="center">
+  ⭐ <b>If you found this list valuable for your GRC or compliance initiatives, please give it a star!</b> ⭐
+</p>
