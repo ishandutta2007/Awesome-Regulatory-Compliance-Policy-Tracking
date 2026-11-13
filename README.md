@@ -70,9 +70,9 @@ Below is an overview of commercial, cloud-hosted Regulatory Compliance and Polic
 
 ## 💻 Open-Source Software & Policy Engines
 
-The following community-driven, open-source GRC solutions and policy-as-code engines are sorted in descending order by **GitHub Star Count**. Every badge links directly to the project's real-time GitHub stargazers.
+The following community-driven, open-source GRC solutions and policy-as-code engines are sorted in descending order by **GitHub Stars_Count**. Every badge links directly to the project's real-time GitHub stargazers.
 
-| Project & Repository 📦 | GitHub Stars 🌟 | Tech Stack 🛠️ | License 📜 | Best For & Core Value Proposition 🎯 |
+| Project & Repository 📦 | GitHub_Stars 🌟 | Tech Stack 🛠️ | License 📜 | Best For & Core Value Proposition 🎯 |
 |---|---|---|---|---|
 | **[Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa)** | [![OPA Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | Go / Rego | Apache-2.0 | General-purpose policy engine across microservices, Kubernetes, CI/CD pipelines & cloud APIs |
 | **[Kyverno](https://github.com/kyverno/kyverno)** | [![Kyverno Stars](https://img.shields.io/github/stars/kyverno/kyverno?style=social&color=white)](https://github.com/kyverno/kyverno/stargazers) | Go / Kubernetes CRD | Apache-2.0 | Kubernetes-native policy-as-code management, validation, mutation & container image verification |
